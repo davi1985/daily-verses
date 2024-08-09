@@ -1,7 +1,10 @@
-import { Button } from './components/ui/button'
+import { HelmetProvider } from 'react-helmet-async'
+import { RouterProvider } from 'react-router-dom'
+
+import { routes } from './routes'
 
 export const App = () => (
-  <div className="flex justify-center items-center h-screen">
-    <Button>Ler meus versos preferidos!</Button>
-  </div>
+  <HelmetProvider>
+    <RouterProvider router={routes} />
+  </HelmetProvider>
 )
