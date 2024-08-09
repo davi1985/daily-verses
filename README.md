@@ -15,4 +15,4 @@ In this application is to provide a platform where users can read daily verses a
 
 Developed by Davi Silva &copy; 2024
 
-<small>So far, the Lord has helped us. 1 Samuel 7:12</small>
+> <small>So far, the Lord has helped us. <i>1 Samuel 7:12</i></small>
